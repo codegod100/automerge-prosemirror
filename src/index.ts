@@ -16,7 +16,7 @@ export {
   type BlockMappingSpec,
 } from "./schema.js"
 export { basicSchemaAdapter } from "./basicSchema.js"
-export { pmDocFromSpans, pmNodeToSpans } from "./traversal.js"
+export { pmDocFromSpans, pmNodeToSpans, pmRangeToAmRange } from "./traversal.js"
 export { syncPlugin, syncPluginKey } from "./syncPlugin.js"
 
 /**
